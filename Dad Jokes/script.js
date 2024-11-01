@@ -5,6 +5,8 @@ jokeBtn.addEventListener('click', generateJoke)
 
 generateJoke()
 
+//Using async/await to fetch data from the API.
+
 async function generateJoke() {
   const config = {
     headers: {
